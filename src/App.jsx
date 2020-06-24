@@ -27,11 +27,15 @@ const Header = () => (
   </div>
 </nav>
 );
+const LoginHeading = () => (
+   <h1>Login Here</h1>
+);
 
 function App() {
   return (
     <div>
     <Header/>
+    <LoginHeading/>
     <Login/>
     </div>
   );
